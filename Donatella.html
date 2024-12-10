@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Донателла Версаче - Кандидат на премьер-министра</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'San Francisco Display', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://i1.wampi.ru/2024/12/04/Realistic-Flag-Mockup-KOPIY.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7); /* Прозрачный фон */
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(250, 255, 255, 0.5);
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .header .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #white;
+        }
+
+        .header button {
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+            color: white;
+        }
+
+        .bio {
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .bio img{
+            margin-top: 30px;
+        }
+
+        .bio img {
+            border-radius: 50%;
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border: 5px solid #fff;
+        }
+
+        .bio p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            text-align: center;
+            margin: 20px 0;
+            color: white;
+            text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            margin: 20px 0 10px;
+            text-align: center;
+        }
+
+        .goals {
+            padding: 10px 20px;
+        }
+
+        .goals ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .goals li {
+            background: #000;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.06);
+            transition: transform 0.2s;
+        }
+
+        .goals li:hover {
+            transform: translateY(-5px);
+            box-shadow: #e9ecef;
+        }
+
+        .goals li::before {
+            content: "⚡";
+            font-size: 1.5rem;
+            margin-right: 15px;
+            color: #007aff;
+        }
+
+        .return {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .return a {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #007aff;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            box-shadow: 0 4px 8px rgba(0, 122, 255, 0.3);
+            transition: background 0.3s, transform 0.2s;
+        }
+
+        .return a:hover {
+            background: #005BB5;
+            transform: translateY(-3px);
+        }
+
+        {
+            .bio img {
+                width: 80%;
+                height: auto;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            .goals li {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">Ротбургское Королевство</div>
+            <button onclick="window.history.back()">Назад</button>
+        </div>
+        <h1>Донателла Версаче</h1>
+        <div class="bio">
+            <img src="https://cdn.amomama.com/28f4eaaf7d552f3c14a20651ece45fc8a077851311ed26424c85c46213d503cc.jpg" alt="Донателла Версаче">
+            <p><strong>Имя при рождении:</strong> Донателла Франческа Версаче</p>
+            <p><strong>Дата рождения:</strong> 2 мая 1955 (69 лет)</p>
+            <p><strong>Место рождения:</strong> Реджо-ди-Калабрия, Калабрия, Италия</p>
+            <p><strong>Гражданство:</strong> Италия, Ротбург</p>
+            <p><strong>Профессия:</strong> Модельер, креативный директор, политический деятель</p>
+            <p><strong>Лейбл:</strong> Versace</p>
+            <p><strong>Супруг:</strong> Пол Бек (развод; 2 детей)</p>
+            <p><strong>Дети:</strong> Аллегра Версаче (1986), Дэниел Версаче (1989)</p>
+            <p><strong>Альма-матер:</strong> Флорентийский университет</p>
+            <p><strong>Официальный сайт:</strong> <a href="https://versace.com" target="_blank" style="color: #007aff;">versace.com</a></p>
+        </div>
+        <h2>Политические цели</h2>
+        <div class="goals">
+            <ul>
+                <li>Поддержка санкций против стран-агрессоров и укрепление альянсов в НАТО.</li>
+                <li>Развитие зелёной энергетики и уменьшение зависимости от ископаемых.</li>
+                <li>Реформа миграционной политики и интеграция трудовых мигрантов.</li>
+                <li>Усиление IT-безопасности и цифрового суверенитета.</li>
+                <li>Инвестиции в инфраструктуру и создание новых рабочих мест.</li>
+                <li>Продвижение законов, регулирующих права работников в индустрии развлечений для взрослых, чтобы обеспечить их защиту и достойные условия труда.</li>
+                <li>Регулирование проституции с целью защиты прав работников и предотвращения эксплуатации.</li>
+                <li>Введение специальных лицензий и налоговых льгот для платформ, предоставляющих безопасное пространство для фетиш- и креативных онлайн-сообществ.</li>
+                <li>Разработка государственной программы поддержки для фембоев в сфере медиапроизводства и искусства.</li>
+                <li>Создание центра для помощи жертвам стигматизации и дискриминации, включая представителей фетиш-сообществ, с целью их социальной интеграции.</li>
+                <li>Принятие законов, которые направлены на защиту приватности и свободы выражения в интернете, включая защиту от цензуры сексуального контента.</li>
+                <li>Модернизация законов о рекламе для индустрии развлечений для взрослых, чтобы обеспечить прозрачность и безопасность для пользователей.</li>
+                <li>Инициирование создания безопасных и регулируемых публичных домов, обеспечивающих права на безопасные условия труда для работников.</li>
+                <li>Создание сети для поддержки креативных и альтернативных сексуальных субкультур, включая мероприятия, художественные выставки и цифровые платформы.</li>
+                <li>Разработка образовательных программ по сексуальному здоровью, включая доступность информации о безопасности в контексте проституции и фетиш-сообществ.</li>
+                <li>Усиление борьбы с травлей и агрессией в интернете в отношении людей, занимающихся фетиш- и контент-платформами.</li>
+                <li>Решение миграционного вопроса.</li>
+            </ul>
+        </div>
+        <div class="return">
+            <a href="index.html">Назад к голосованию</a>
+        </div>
+    </div>
+</body>
+</html>
